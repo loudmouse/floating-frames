@@ -57,3 +57,11 @@ h2, .panel-title {
   background-color: #0098cf;
   border: none;
 }
+
+.panel-body span {
+  font-weight: bold;
+}
+
+.q-and-a {
+  padding: 1em;
+}
