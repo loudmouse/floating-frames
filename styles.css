@@ -31,7 +31,6 @@ h2, .panel-title {
 }
 
 .alert {
-  margin-top: 5em;
   text-align: center;
 }
 .alert span {
@@ -46,6 +45,15 @@ h2, .panel-title {
   color: #354552;
 }
 
+.alert {
+  padding: 2em 0 1em 0;
+}
+
 .image-carousel-section {
-  margin-bottom: 2em;
+  margin-top: 3em;
+}
+
+.cta-button button {
+  background-color: #0098cf;
+  border: none;
 }
