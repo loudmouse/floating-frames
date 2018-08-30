@@ -3,38 +3,74 @@
 <head>
 <title>Floating Frames</title>
   <meta charset="utf-8">
-  <link rel="stylesheet" href="styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css">
 </head>
 
   <body>
     <!-- bootstrap wrapper  -->
     <wrapper class="twbs">
-      <!-- row 1 -->
-      <div class="row">
-
-        <!-- column 1 -->
-        <div class="col-md-6">
-          .col-md-6
+      <!-- container -->
+      <div class="container">
+        <!-- row 1 -->
+        <div class="row">
+          <!-- column 1 -->
+          <div class="col-md-6">
+            <h1>Floating Frames</h1>
+            <h2>Starting at $56</h2>
+            <div class="description">
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus ligula. Vivamus rhoncus rutrum velit. Etiam nulla est, tincidunt eget tortor a, tincidunt pulvinar felis. </p>
+              <p>Nullam mollis vestibulum est, sit amet venenatis nisi auctor eget. Cras pellentesque elit fermentum ante luctus, in sodales sem faucibus. Duis elementum eros dui, at posuere ante malesuada eu. Quisque viverra, nunc sed tristique fermentum, mauris diam placerat risus, vehicula sodales ex leo sed eros. </p>
+            </div>
+            <div class="pricing">
+              <h2>Pricing</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus ligula. Vivamus rhoncus rutrum velit. Etiam nulla est, tincidunt eget tortor a, tincidunt pulvinar felis. </p>
+              <p>Nullam mollis vestibulum est, sit amet venenatis nisi auctor eget. Cras pellentesque elit fermentum ante luctus, in sodales sem faucibus. Duis elementum eros dui, at posuere ante malesuada eu. Quisque viverra, nunc sed tristique fermentum, mauris diam placerat risus, vehicula sodales ex leo sed eros. </p>
+            </div>
+            <div class="cta-button">
+              <form action="/create/step1/select-product" method="POST">
+                <input name="productId" type="hidden" value="18" />
+                <p style="text-align: center;">
+                  <button class="btn btn-primary btn-lg" data-toggle="tooltip" data-placement="top" title="Tooltip on top">
+                    Create Your Own
+                  </button>
+              </form>
+            </div>
+            <div class="reviews">
+              <h2>Reviews</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus ligula. Vivamus rhoncus rutrum velit. Etiam nulla est, tincidunt eget tortor a, tincidunt pulvinar felis. </p>
+              <p>Nullam mollis vestibulum est, sit amet venenatis nisi auctor eget. Cras pellentesque elit fermentum ante luctus, in sodales sem faucibus. Duis elementum eros dui, at posuere ante malesuada eu. Quisque viverra, nunc sed tristique fermentum, mauris diam placerat risus, vehicula sodales ex leo sed eros. </p>
+            </div>
+          </div>
+          <!-- end column 1 -->
+          <!-- column 2 -->
+          <div class="col-md-6">
+            <div class="product-details">
+              <h2>Product Details</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus ligula. Vivamus rhoncus rutrum velit. Etiam nulla est, tincidunt eget tortor a, tincidunt pulvinar felis. </p>
+              <p>Nullam mollis vestibulum est, sit amet venenatis nisi auctor eget. Cras pellentesque elit fermentum ante luctus, in sodales sem faucibus. Duis elementum eros dui, at posuere ante malesuada eu. Quisque viverra, nunc sed tristique fermentum, mauris diam placerat risus, vehicula sodales ex leo sed eros. </p>
+            </div>
+            <div class="shipping-info">
+              <h2>Shipping Info</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus ligula. Vivamus rhoncus rutrum velit. Etiam nulla est, tincidunt eget tortor a, tincidunt pulvinar felis. </p>
+              <p>Nullam mollis vestibulum est, sit amet venenatis nisi auctor eget. Cras pellentesque elit fermentum ante luctus, in sodales sem faucibus. Duis elementum eros dui, at posuere ante malesuada eu. Quisque viverra, nunc sed tristique fermentum, mauris diam placerat risus, vehicula sodales ex leo sed eros. </p>
+            </div>
+            <div class="faq">
+              <h2>FAQs</h2>
+              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque vitae faucibus ligula. Vivamus rhoncus rutrum velit. Etiam nulla est, tincidunt eget tortor a, tincidunt pulvinar felis. </p>
+              <p>Nullam mollis vestibulum est, sit amet venenatis nisi auctor eget. Cras pellentesque elit fermentum ante luctus, in sodales sem faucibus. Duis elementum eros dui, at posuere ante malesuada eu. Quisque viverra, nunc sed tristique fermentum, mauris diam placerat risus, vehicula sodales ex leo sed eros. </p>
+            </div>
+          </div>
+          <!-- end column 2 -->
         </div>
-        <!-- end column 1 -->
-
-        <!-- column 2 -->
-        <div class="col-md-6">
-          .col-md-6
-        </div>
-        <!-- end column 2 -->
-
+        <!-- end row 1 -->
       </div>
-      <!-- end row 1 -->
-
+      <!-- end of container -->
     </wrapper>
     <!-- end bootstrap wrapper -->
-
   </body>
-
 </html>

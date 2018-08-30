@@ -1,5 +1,18 @@
 wrapper.twbs {
   max-width:1200px;
-  text-align: center;
   margin: 0 auto;
+}
+
+.container {
+  padding: 5em;
+}
+
+
+h1 {
+  font-size: 34px;
+}
+
+h2 {
+  font-size: 16px;
+  color: #2C96CA;
 }
