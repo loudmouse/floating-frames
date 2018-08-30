@@ -29,3 +29,19 @@ h2, .panel-title {
   padding: 1em;
   font-style: italic;
 }
+
+.alert {
+  margin-top: 5em;
+  text-align: center;
+}
+.alert span {
+  font-weight: bold;
+}
+
+.alert .cta-button {
+  margin-top: 1em;
+}
+
+.alert h4, .alert p {
+  color: #354552;
+}
