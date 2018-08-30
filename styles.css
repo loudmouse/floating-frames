@@ -16,3 +16,16 @@ h2, .panel-title {
   font-size: 16px;
   color: #2C96CA;
 }
+
+.table th, .table td {
+  text-align: center;
+}
+
+.table th {
+  color: #2C96CA;
+}
+
+.table .table-caption {
+  padding: 1em;
+  font-style: italic;
+}
