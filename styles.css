@@ -17,6 +17,13 @@ h2, .panel-title {
   color: #2C96CA;
 }
 
+.ship-speed {
+  font-size: 14px;
+  margin-left: 49%;
+  margin-bottom: 2em;
+  color: #6f7b85;
+}
+
 .table th, .table td {
   text-align: center;
 }
