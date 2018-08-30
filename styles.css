@@ -45,3 +45,7 @@ h2, .panel-title {
 .alert h4, .alert p {
   color: #354552;
 }
+
+.image-carousel-section {
+  margin-bottom: 2em;
+}
