@@ -83,3 +83,14 @@ h2, .panel-title {
 .review-widget {
   padding: 1em;
 }
+
+.back-to-top {
+  display: block;
+    position: fixed;
+    bottom: 2em;
+    right: 2em;
+}
+
+.back-to-top .fas {
+  margin-right: .2em;
+}
