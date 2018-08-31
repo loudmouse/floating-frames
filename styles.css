@@ -17,6 +17,10 @@ h2, .panel-title {
   color: #2C96CA;
 }
 
+.description p {
+  padding: 0em 0.4em 1em .4em;
+}
+
 .ship-speed {
   font-size: 14px;
   margin-left: 49%;
